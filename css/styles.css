@@ -7,8 +7,6 @@ body {
 }
 
 .button {
-  display: block;
-  margin: auto;
   font-size: 20px;
 }
 
@@ -19,4 +17,19 @@ h1 {
 .text-input {
   padding: 5px 130px 5px 5px;
   margin-bottom: 25px;
+}
+
+.button, select {
+  display: block;
+  margin: auto;
+}
+
+select {
+  margin-bottom: 25px;
+}
+
+#result {
+  text-align: center;
+  margin: 20px;
+  font-size: 45px;
 }
